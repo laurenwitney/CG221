@@ -1,0 +1,28 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  background-image: url("backgrounds/3.jpg");
+    background-attachment: fixed;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  width: 775px;
+  border: 1.5px solid gray;
+  padding: 10px;
+  margin: auto;
+}
+
+p {
+  font-size: 35px;
+}
+
+ul {
+  list-style: none;
+}
