@@ -1,0 +1,34 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  background-image: url("5.gif");
+  background-repeat: no-repeat;
+  text-align: center;
+  text-transform: lowercase;
+  margin: auto;
+  width: 800px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  width: 775px;
+  border: 1.5px solid gray;
+  padding: 10px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+font-size: 25px;
+}
+
+p {
+  text-transform: none;
+}
