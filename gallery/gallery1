@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"><!--can add icon image-->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        <a href="gallery.html">GALLERY</a>
+      </h1>
+      <h2>Lauren Witney</h2>
+      <h3>Packaging Design</h3>
+      <img src="pk.png">
+      <p>Packaging Design</p>
+  </body>
+</html>
