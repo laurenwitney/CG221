@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+        <link rel="Gallery" type="image/x-icon" href="3.jpg"><!--can add icon image-->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        <a href="https://laurenwitney.github.io/CG221/">Design &amp; Authoring for Interactive Media</a>
+      </h1>
+      <h2>Lauren Witney</h2>
+      <h3>Gallery</h3>
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="gallery1.html">
+                  <img class="gallery-img" src="pk.png" alt="short description of image"/>
+                  <p class="label"></p><!--name of image if I want-->
+                </a>
+            </div><!--closed gallery-item-->
+            <div class="gallery-item">
+              <a href="gallery2.html">
+                <img class="gallery-img" src="pk.png" alt="short description of image"/>
+                <p class="label"></p><!--name of image if I want-->
+              </a>
+            </div><!--closed gallery-item-->
+            <div class="gallery-item">
+              <a href="gallery3.html">
+                <img class="gallery-img" src="pk.png" alt="short description of image"/>
+                <p class="label"></p><!--name of image if I want-->
+              </a>
+            </div><!--closed gallery-item-->
+            <div class="gallery-item">
+              <a href="gallery4.html">
+                <img class="gallery-img" src="pk.png" alt="short description of image"/>
+                <p class="label"></p><!--name of image if I want-->
+              </a>
+            </div><!--closed gallery-item-->
+        </div><!--closed gallery-->
+    </div><!--closed container-->
+  </body>
+</html>
