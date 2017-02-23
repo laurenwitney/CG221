@@ -5,7 +5,7 @@
     <title>Gallery</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="gallery.css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"><!--can add icon image-->
+        <link rel="Gallery" type="image/x-icon" href="3.jpg"><!--can add icon image-->
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab" rel="stylesheet">
   </head>
 
