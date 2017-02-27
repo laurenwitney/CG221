@@ -10,6 +10,7 @@ body {
   color: rgba(0, 0, 0, 0.7);
   background-image: url("3.jpg");
     background-attachment: fixed;
+    background-size: cover;
   text-align: center;
   text-transform: lowercase;
 }
@@ -24,7 +25,19 @@ h1 {
   margin: auto;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: none;
+}
+
 img {
+  max-width: 100%;
+}
+
+video {
   max-width: 100%;
 }
 
@@ -34,3 +47,34 @@ img {
   display: inline-block;
   margin: 2%;
 }
+
+a:hover {
+  color: purple;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(71, 86, 95);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(43, 41, 45);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1{
+    font-size: 2rem;
+    width: auto;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
