@@ -1,0 +1,74 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: white;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  width: 775px;
+  border: 1.5px solid gray;
+  padding: 10px;
+  margin: auto;
+}
+
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.gallery-item {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  margin: 2%;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+
+
+.gallery-item:hover {
+        -webkit-transform: scale(0.75);
+        -ms-transform: scale(0.75);
+        transform: scale(0.75);
+        background:#53a7ea;
+        border-radius:50%;
+}
