@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Slab', serif;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.7);
   background-color: white;
@@ -17,6 +17,12 @@ h1 {
   padding: 10px;
   margin: auto;
 }
+
+h2 {
+  background: url("yt.jpeg") repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
 
 
 /* unvisited link */
