@@ -8,7 +8,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
   text-align: center;
-  width: 900px;
   margin: auto;
 }
 
@@ -17,25 +16,49 @@ h1 {
   font-family: 'Amatic SC', cursive;
   text-transform: uppercase;
   width: 775px;
-  border: 1.5px solid gray;
+  border: 1.5px;
   padding: 10px;
   margin: auto;
 }
 
-img {
-  max-width: 50%;
-  border: 1px solid yellow;
+
+.gallery-item {
+  display: inline-block;
+  width: 25%;
+  border: 1.5px solid gray;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.25);
 }
+
 
 ul {
   text-align: left;
 }
 
-.gallery-item {
-  font-size: 17px;
-  text-align: center;
+
+@keyframes cf3FadeInOut {
+0% {
+opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
 }
 
+img {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-duration: 5s;
+animation-direction: alternate;
+position: relative;
+}
 
 
 /* unvisited link */
