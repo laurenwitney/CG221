@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JQuery UI</title>
+        <!--responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--theme-->
+        <link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.css">
+        <!--my css-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--jquery-->
+        <script type="text/javascript" src="jquery-ui/external/jquery/jquery.js"></script>
+        <!--jquery ui-->
+        <script type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
+        <!--my javascript-->
+        <script type="text/javascript" src="script.js"></script>
+        <!--font-->
+
+
+        <script>
+          $( "#datepicker" ).datepicker();
+
+          $( ".widget input[type=submit], .widget a, .widget button" ).button();
+          $( "button, input, a" ).click( function( event ) {
+            event.preventDefault();
+          } );
+          $('#tybutton').click(function(){
+            $("form").hide();
+            $(".thankyou").show();
+          });
+        </script>
+
+    </head>
+    <body>
+      <h2>Volunteer Form</h2>
+      <form>
+        <label for="name">Name</label>
+        <input id="name" type="name" name="name"
+        placeholder="John Doe">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email"
+        placeholder="email@example.com">
+
+        <label for="checkbox">I am interested in</label>
+          <input type="checkbox" name="interest" value="sustainability">Sustainability
+          <input type="checkbox" name="interest" value="human rights">Human Rights
+          <input type="checkbox" name="interest" value="animals">Animals
+
+
+          <p>Date: <input type="text" id="datepicker"></p>
+
+        <input id="tybutton" class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+
+      </form>
+
+      <div class="thankyou"><h1>Thanks!</h1>
+      </div>
+
+    </body>
+</html>
