@@ -1,0 +1,93 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>JQuery Collage</title>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--JQuery-->
+    <script src="jquery-3.2.0.min.js"></script>
+    <!--JavaScript-->
+    <script src="script.js"></script>
+    <!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Slab" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1>JQuery</h1>
+
+
+
+    <button class="accordion">Click Here!</button>
+    <div class="panel">
+      <p>To begin viewing the slideshow, click the first dot.</p>
+    </div>
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+</script>
+
+
+
+
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+
+
+  <div class="slideshow-container">
+   <div class="mySlides fade">
+     <div class="numbertext">1 / 3</div>
+     <img src="1.jpg" style="width:100%" alt=>
+   </div>
+
+   <div class="mySlides fade">
+     <div class="numbertext">2 / 3</div>
+     <img src="2.jpg" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+     <div class="numbertext">3 / 3</div>
+     <img src="3.jpg" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+     <div class="numbertext">3 / 3</div>
+     <img src="4.jpg" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+     <div class="numbertext">3 / 3</div>
+     <img src="5.jpg" style="width:100%">
+   </div>
+
+   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+ <br>
+
+ <div style="text-align:center">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span>
+   <span class="dot" onclick="currentSlide(5)"></span>
+ </div>
+
+
+
+  </body>
+</html>
